@@ -59,5 +59,9 @@ body {
   margin: 10px;
   border-radius: 10px;
   color: white;
+  cursor: pointer;
   font-weight: bolder;
+}
+.profile__button:hover{
+ background-color: #bad467; 
 }
