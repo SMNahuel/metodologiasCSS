@@ -20,8 +20,8 @@ export default function Home() {
             "Front End Developer and avid reader"
           </p>
 
-          {profile.map((data) => {
-            return <ButtonProfile profile={data}/>;
+          {profile.map((data, key) => {
+            return <ButtonProfile key={key} profile={data}/>;
           })}
         </div>
       </div>
