@@ -1,0 +1,63 @@
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  display: flex;
+  background: #1f1f1f;
+  min-width: 100px;
+  max-width: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px
+}
+
+.profile__img{
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+}
+
+.profile__ubication {
+  color: #bad467;
+}
+
+.profile__button {
+  background-color: #333333;
+  border: none;
+  width: 100%;
+  height: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+}
