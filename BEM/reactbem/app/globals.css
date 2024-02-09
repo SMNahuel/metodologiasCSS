@@ -26,6 +26,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .profile {
@@ -42,8 +43,8 @@ body {
 }
 
 .profile__img{
- width: 200px;
- height: 200px;
+ width: 100px;
+ height: 100px;
  border-radius: 50%;
 }
 
