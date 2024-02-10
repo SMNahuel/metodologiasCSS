@@ -1,25 +1,6 @@
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: black;
 }
 
 .container {
@@ -39,19 +20,23 @@ body {
   text-align: center;
   flex-direction: column;
   padding: 20px;
-  border-radius: 10px
+  border-radius: 10px;
 }
-
-.profile__img{
- width: 100px;
- height: 100px;
- border-radius: 50%;
+.profile__name {
+  color: white;
+}
+.profile__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
 .profile__ubication {
   color: #bad467;
 }
-
+.profile__occupation {
+  color: white;
+}
 .profile__button {
   background-color: #333333;
   border: none;
@@ -63,6 +48,6 @@ body {
   cursor: pointer;
   font-weight: bolder;
 }
-.profile__button:hover{
- background-color: #bad467; 
+.profile__button:hover {
+  background-color: #bad467;
 }
