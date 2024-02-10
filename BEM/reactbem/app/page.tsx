@@ -11,7 +11,7 @@ const profile = [
 
 export default function Home() {
   return (
-    <>
+
       <div className="container">
         <div className="profile">
           <Image alt="imgProfile" className="profile__img" width={100} height={100}  src="/81668762.jpeg"/>
@@ -23,6 +23,6 @@ export default function Home() {
           })}
         </div>
       </div>
-    </>
+
   );
 }
