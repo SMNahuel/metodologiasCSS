@@ -1,12 +1,13 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: black;
-}
-
-.container {
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+
+.container {
   width: 100%;
 }
 
