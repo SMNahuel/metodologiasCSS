@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <div className="container">
         <div className="profile">
-          <Image alt="imgProfile" className="profile__img"  src="https://avatars.githubusercontent.com/u/81668762?v=4"/>
+          <Image alt="imgProfile" className="profile__img" width={100} height={100}  src="/81668762.jpeg"/>
           <h2 className="profile__name">Nahuel Sanchez</h2>
           <h3 className="profile__ubication">Corrientes, Argentina</h3>
           <p className="profile__occupation">
