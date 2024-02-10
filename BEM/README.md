@@ -49,7 +49,7 @@ Y los modificadores
 }
 ```
 
-Tenemos un ejemplo en la carpeta reactbem de un proyecto en react con BEM su especificidad es la siguiente 
+Tenemos un ejemplo en la carpeta react y html de un proyecto en react con BEM su especificidad es la siguiente 
 
 ![graph](./assets/graph.png)
 
