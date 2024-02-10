@@ -48,3 +48,17 @@ Y los modificadores
     text-transform: uppercase;
 }
 ```
+
+Tenemos un ejemplo en la carpeta reactbem de un proyecto en react con BEM su especificidad es la siguiente 
+
+![graph](./assets/graph.png)
+
+Un problema que surge al usar una clase con hover es el siguiente que sucedio aquí 
+
+![graph](./assets/graph__error.png)
+
+Vemos un incremento en el grafico y no deberia ocurrir tal cosa
+
+# ¿Quieres visitar el proyecto? 
+
+https://metodologias-css.vercel.app/
